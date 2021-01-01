@@ -1,14 +1,38 @@
 body{
-    width: 100vw;
-    height: 100vh;
+    margin: 0px;
+}
+#maindiv{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    width: 100vw;
 }
-#title{
-    display: block;
-    background-color: #000;
-    color: white;
-    font-size: 30px;
+#form{
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.label{
+    margin: 10px;
+}
+#email{
+    margin: 10px;
+    height: 20px;
+    width: 200px;
+}
+#password{
+    margin: 10px;
+    height: 20px;
+    width: 200px;
+}
+button{
+    background-color: #00a;
+    color: #fff;
+    width: 200px;
+    height: 30px;
 }

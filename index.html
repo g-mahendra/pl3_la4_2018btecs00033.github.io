@@ -10,8 +10,18 @@
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <h2 id="title">Welcome to Hell</h2>
-    <button type="button" onclick="change()">Click to change color</button>
+    <div id="maindiv">
+      <form name="signin" id="form">
+        <h2>SignIn</h2>
+        <label class="label" for="email">Email Address</label>
+        <input type="email" id="email" name='email'/>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password"/>
+        <a href="./main.html">
+          <button onclick="validate()" type="button">SignIn</button>
+        </a>
+      </form>
+    </div>
     <script src="./index.js"></script>
   </body>
 </html>
